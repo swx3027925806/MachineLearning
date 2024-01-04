@@ -1,7 +1,8 @@
 # Linear Regression 线性回归模型
 
 > 该文章作为机器学习的第一篇文章，主要介绍线性回归模型的原理和实现方法。
-> 更多相关工作请参考：Github
+>
+> 更多相关工作请参考：[Github](https://github.com/swx3027925806/MachineLearning)
 
 ## 算法介绍
 
