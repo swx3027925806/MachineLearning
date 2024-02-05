@@ -18,12 +18,18 @@ pip install -r requirements.txt
 
 这份表格阐明了每个算法的难易程度和相关行，作为给大家的学习路线指导：
 
-| 算法名称             | 难度【1-5】 | 前置算法 | 备注      |
-|------------------|---------| --------- |---------|
-| LinearRegression | 2       | 无       | 线性回归算法  |
-| NaiveBayes       | 3       | 无       | 朴素贝叶斯算法 |
-| KNN              | 1       | 无       | K近邻算法   |
-| KMeans           | 1       | 无       | K均值聚类算法 |
+| 算法名称                  | 难度[1-5]   | 前置算法             | 备注            |
+|--------------------------|-------------| --------------------|-----------------|
+| LinearRegression         | 2           | 无                  | 线性回归算法     |
+| NaiveBayes               | 3           | 无                  | 朴素贝叶斯算法   |
+| KNN                      | 1           | 无                  | K近邻算法        |
+| KMeans                   | 1           | 无                  | K均值聚类算法    |
+| PolynomialRegression     | 3           | LinearRegression    | 多项式回归算法   |
+
+## Jupyter2Markdown
+```
+jupyter nbconvert --to markdown notebook.ipynb
+```
 
 ## 作者相关
 欢迎大家交流学习，作者看邮箱不是很及时，见谅【doge】
